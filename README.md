@@ -1,17 +1,18 @@
-> Destiné aux débutants et à but pédagogique, j'ai réalisé ce projet il y a plusieurs années à mes débuts en informatique. Il est donc loin de respecter toutes les règles de l'art en développement et en programmation. Je l'ai conçu avec l'aide d'Anthony Maréchal. N'hésitez pas à corriger, compléter, modifier, ou d'ajouter vos remarques et bonnes pratiques soit par l'intermédiaire de Pull requests ou d'issues, c'est aussi pour ça que je le partage avec la communauté Github 💪 😀.
+# Gougoule : moteur de recherche en Java
 
+Projet étudiant réalisé en 2005 avec Anthony Maréchal, conservé comme archive pédagogique.
 
-Moteur de recherche complet avec :
-- Un robot (Crawler) dédié au parcours et à l'indexation du web de page en page.
-- Un serveur contenant l'indexation du web réalisé par le crawler ou pouvant répondre aux requêtes réalisés par les clients.
-- Des applications clientes, sous forme d'applet Java et Flash.
+Le moteur comprend :
 
-Je vous conseille la lecture de la documentation qui explique plus en détail le fonctionnement.
+- Un robot d’exploration (crawler) qui parcourt les pages web et extrait leur contenu.
+- Un serveur qui construit l’index et répond aux requêtes des clients.
+- Des interfaces clientes historiques en applet Java et en Flash.
 
-# Schéma explicatif
+Le [rapport](Documentation/documentation.pdf) présente l’architecture, l’indexation et le traitement des requêtes.
 
-![alt text](Documentation/schema.jpg?raw=true "Schéma")
+## Architecture et interface
 
-# Screenshot de l'interface cliente en Flash
+![Architecture du moteur](Documentation/schema.jpg?raw=true "Schéma")
+![Interface cliente en Flash](Documentation/screenshot1.png?raw=true "Interface Flash")
 
-![alt text](Documentation/screenshot1.png?raw=true "screenshot 1")
+Le projet reflète les outils et pratiques de cette période. Les propositions d’amélioration sont bienvenues dans les issues et les pull requests.
